@@ -47,11 +47,46 @@ dans ce Checkpoint, vous créerez un compte sur GitHub, puis vous téléchargere
 
 ## Checkpoint 6
 **Sujet :**<br>
-dans ce Checkpoint, vous créerez un compte sur GitHub, puis vous téléchargerez les outils dont vous avez besoin, suivez les instructions de l'atelier pour vous aider, vous devez partager le lien vers votre profil GitHub afin que nous puissions noter vos exercices
+dans ce checkpoint, vous allez faire un tableau à 2 colonnes, ‘s'inscrire’ et ‘se connecter’. le formulaire ‘s'inscrire’ contient le nom, l'adresse e-mail, le mot de passe (et le bouton Envoyer). le formulaire ‘se connecter’ ne contient que l'e-mail et le mot de passe (et le bouton Envoyer). il est préférable d'utiliser Bootstrap pour le rendre agréable.
 <br>
 **Solution :**
-- téléchargez et installez git et un éditeur de texte de votre choix (Atom, VSC, Sublime Text ..)
-- créer un compte sur GitHub et envoyez-nous le lien du compte
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Checkpoint 6</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+  </head>
+  <body>
+    <table class="table table-bordered table-hover table-dark" >
+      <tr>
+        <th>s'inscrire</th>
+        <th>se connecter</th>
+      </tr>
+      <tr>
+        <td>
+          <form>
+            Nom : <input type="text" name="nom" > <br>
+            Email : <input type="text" name="email" > <br>
+            Mot de passe : <input type="password" name="mdp" > <br>
+            <input type="submit" value="s'inscrire" class="btn btn-warning" > <br>
+          </form>
+        </td>
+        <td>
+          <form>
+            Email : <input type="text" name="email" > <br>
+            Mot de passe : <input type="password" name="mdp" > <br>
+            <input type="submit" value="se connecter" class="btn btn-warning" > <br>
+          </form>
+        </td>
+      </tr>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
+```
 <br>
 
 ## Checkpoint 7
