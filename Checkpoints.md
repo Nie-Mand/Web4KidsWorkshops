@@ -11,20 +11,78 @@ dans ce Checkpoint, vous créerez un compte sur GitHub, puis vous téléchargere
 
 ## Checkpoint 2
 **Sujet :**<br>
-dans ce Checkpoint, vous créerez un compte sur GitHub, puis vous téléchargerez les outils dont vous avez besoin, suivez les instructions de l'atelier pour vous aider, vous devez partager le lien vers votre profil GitHub afin que nous puissions noter vos exercices
+Dans ce checkpoint, vous allez créer une page Web contenant un article, n'hésitez pas à écrire quoi que ce soit, vous pouvez utiliser Internet pour en obtenir. l'article a un titre, un auteur, une catégorie et un contenu, le contenu doit comprendre au moins 3 mots avec un format spécial (souligné, gras ...)
 <br>
 **Solution :**
-- téléchargez et installez git et un éditeur de texte de votre choix (Atom, VSC, Sublime Text ..)
-- créer un compte sur GitHub et envoyez-nous le lien du compte
+> fichier : index.html
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Checkpoint 2</title>
+  </head>
+  <body>
+      <article>
+        <h3>Article : Les Langages de développement web, <i>Catégorie : Web</i></h3>
+        <b>Auteur : John Doe</b>
+        <hr>
+        <p>
+          Utilisé aujourd’hui dans sa version 5, le <u>HTML</u> est le langage servant à la création de pages pour le web. Il s’agit donc d’un langage web. En réalité, le <u>HTML5</u> n’est pas à proprement parlé un langage de programmation. Il s’agit plutôt d’un langage de balisage. Cela veut simplement dire que votre code contiendra des balises qui elles-mêmes contiendront les informations que vous souhaitez afficher sur votre page web.
+Le binôme du <u>HTML5</u> est le <u>CSS3</u>. Là où le <u>HTML</u> mettra les contenus sur notre page web, le <u>CSS</u> sera utilisé pour mettre en forme ces contenus. Vous allez ainsi pouvoir, grâce au <u>CSS</u>, choisir la police que vous souhaitez utiliser, sa taille ou encore la couleur du fond de votre page web. Chaque instruction en <u>CSS</u> que vous écrirez va ainsi pointer l’élément HTML que vous souhaiterez customiser. Le <u>HTML5</u> et le <u>CSS3</u> sont à la base de tous les sites web.
+        </p>
+      </article>
+  </body>
+</html>
+```
 <br>
 
 ## Checkpoint 3
 **Sujet :**<br>
-dans ce Checkpoint, vous créerez un compte sur GitHub, puis vous téléchargerez les outils dont vous avez besoin, suivez les instructions de l'atelier pour vous aider, vous devez partager le lien vers votre profil GitHub afin que nous puissions noter vos exercices
+Dans ce checkpoint, vous utiliserez votre travail précédent pour ajouter un menu et un pied de page, le menu contient une page "à propos" et une page "contactez-nous", la page à propos contiendra des informations vous concernant, et la page "contactez-nous" contiendra un lien vers votre compte github. le pied de page contient votre nom. le code doit contenir au moins un bloc "div"
 <br>
 **Solution :**
-- téléchargez et installez git et un éditeur de texte de votre choix (Atom, VSC, Sublime Text ..)
-- créer un compte sur GitHub et envoyez-nous le lien du compte
+> fichier : index.html
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Checkpoint 2</title>
+  </head>
+  <body>
+    <menu>
+      <ul>
+          <li><a href="apropos.html">à propos</a></li>
+          <li><a href="https://www.github.io/TON_COMPTE">contactez-nous</a></li>
+      </ul>
+    </menu>
+      <div>
+        <h3>Article : Les Langages de développement web, <i>Catégorie : Web</i></h3>
+        <b>Auteur : John Doe</b>
+        <hr>
+        <p>
+          Utilisé aujourd’hui dans sa version 5, le <u>HTML</u> est le langage servant à la création de pages pour le web. Il s’agit donc d’un langage web. En réalité, le <u>HTML5</u> n’est pas à proprement parlé un langage de programmation. Il s’agit plutôt d’un langage de balisage. Cela veut simplement dire que votre code contiendra des balises qui elles-mêmes contiendront les informations que vous souhaitez afficher sur votre page web.
+Le binôme du <u>HTML5</u> est le <u>CSS3</u>. Là où le <u>HTML</u> mettra les contenus sur notre page web, le <u>CSS</u> sera utilisé pour mettre en forme ces contenus. Vous allez ainsi pouvoir, grâce au <u>CSS</u>, choisir la police que vous souhaitez utiliser, sa taille ou encore la couleur du fond de votre page web. Chaque instruction en <u>CSS</u> que vous écrirez va ainsi pointer l’élément HTML que vous souhaiterez customiser. Le <u>HTML5</u> et le <u>CSS3</u> sont à la base de tous les sites web.
+        </p>
+      </div>
+      <footer>
+        Powered by : TON NOM
+      </footer>
+  </body>
+</html>
+```
+> fichier : apropos.html
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>à propos</title>
+  </head>
+  <body>
+    <h1>à propos : TON NOM</h1>
+    parler de soi..
+  </body>
+</html>
+```
 <br>
 
 ## Checkpoint 4
