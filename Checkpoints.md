@@ -295,7 +295,7 @@ p {
       </style>
   </head>
   <body>
-      <article class="article">
+      <article>
         <h3>Article : Les Langages de développement web</h3>
         <hr>
         <p>
