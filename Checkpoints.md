@@ -268,10 +268,44 @@ vous allez créer une page Web qui contient un bouton et un paragraphe qui conti
 
 ## Checkpoint 8
 **Sujet :**<br>
-dans ce Checkpoint, vous créerez un compte sur GitHub, puis vous téléchargerez les outils dont vous avez besoin, suivez les instructions de l'atelier pour vous aider, vous devez partager le lien vers votre profil GitHub afin que nous puissions noter vos exercices
+dans ce checkpoint, vous ajouterez une partie de ce que nous avons discuté dans ce chapitre, vous devez ajouter une nouvelle police, de préférence à partir des polices Google, et vous ajouterez une transformation avec une transition (délai). vous pouvez utiliser l'un des codes précédents que nous avons fait
 <br>
 **Solution :**
-- téléchargez et installez git et un éditeur de texte de votre choix (Atom, VSC, Sublime Text ..)
-- créer un compte sur GitHub et envoyez-nous le lien du compte
+> fichier : index.html
+```html
+<html><head>
+    <title>Checkpoint 4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&amp;display=swap" rel="stylesheet">
+      <style>
+    article {
+  border: 2px solid black;
+  width: 700px;
+  font-family: 'Chelsea Market', cursive;
+  transform: translate(100px, 50px);
+  transition: transform 1.5s;
+}
+h3 {
+  padding: 10px;
+  color: red;
+  font-size: 20px;
+}
+p {
+  padding: 10px;
+}
+      </style>
+  </head>
+  <body>
+      <article class="article">
+        <h3>Article : Les Langages de développement web</h3>
+        <hr>
+        <p>
+          Utilisé aujourd’hui dans sa version 5, le HTML est le langage servant à la création de pages pour le web. Il s’agit donc d’un langage web. En réalité, le HTML5 n’est pas à proprement parlé un langage de programmation. Il s’agit plutôt d’un langage de balisage. Cela veut simplement dire que votre code contiendra des balises qui elles-mêmes contiendront les informations que vous souhaitez afficher sur votre page web.
+Le binôme du HTML5 est le CSS3. Là où le HTML mettra les contenus sur notre page web, le CSS sera utilisé pour mettre en forme ces contenus. Vous allez ainsi pouvoir, grâce au CSS, choisir la police que vous souhaitez utiliser, sa taille ou encore la couleur du fond de votre page web. Chaque instruction en CSS que vous écrirez va ainsi pointer l’élément HTML que vous souhaiterez customiser. Le HTML5 et le CSS3 sont à la base de tous les sites web.
+        </p>
+        <img src="web.png" alt="Web" width="900" height="250">
+      </article>
+  
+</body></html>
+```
 <br>
 
