@@ -46,7 +46,7 @@ Dans ce checkpoint, vous utiliserez votre travail précédent pour ajouter un me
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Checkpoint 2</title>
+    <title>Checkpoint 3</title>
   </head>
   <body>
     <menu>
