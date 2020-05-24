@@ -274,7 +274,7 @@ dans ce checkpoint, vous ajouterez une partie de ce que nous avons discuté dans
 > fichier : index.html
 ```html
 <html><head>
-    <title>Checkpoint 4</title>
+    <title>Checkpoint 8</title>
     <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&amp;display=swap" rel="stylesheet">
       <style>
     article {
