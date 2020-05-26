@@ -250,9 +250,9 @@ vous allez créer une page Web qui contient un bouton et un paragraphe qui conti
     <title>Checkpoint 7</title>
     <script>
       function checkpoint() {
-        var x = prompt("Saisissez x : ")
-        var y = prompt("Saisissez y : ")
-        var resultat = document.getElementById("resultat")
+        let x = prompt("Saisissez x : ")
+        let y = prompt("Saisissez y : ")
+        let resultat = document.getElementById("resultat")
         resultat.innerHTML = x * y
         resultat.style.color = "red"
       }
