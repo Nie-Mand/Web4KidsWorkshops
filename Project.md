@@ -53,7 +53,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Acceuil</title>
+    <title>Symptômes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Dosis" rel="stylesheet">
@@ -127,7 +127,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Acceuil</title>
+    <title>Se protége</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Dosis" rel="stylesheet">
@@ -182,5 +182,52 @@
 ## Part 3
 > fichier : email.html
 ```html
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Email-Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis" rel="stylesheet">
+    <style>
+      * {
+        font-family: 'Dosis', sans-serif;
+      }
+    </style>
+    <script>
+      function func() {
+        let name = document.getElementById("name")
+        let email = document.getElementById("email")
+        alert("bonjour, Mr. "+name.value+", votre email "+email.value+" a été ajouté à notre liste d'abonnés avec succès")
+      }
+    </script>
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <div class="container" >
+            <a class="navbar-brand" href="index.html">Mon Site</a>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="symptoms.html">Symptômes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="proteger.html">Se protéger</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="email.html">Email-me</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+          <div class="container" >
+            <h1>-vous recevoir des notifications sur les symptômes et comment rester à l'abri de Covid 19? abonnez-vous pour vous informer quotidiennement sur Covid-19 News</h1>
+              <h3>Nom : </h3> <input type="text" name="name" id="name" > <br>
+              <h3>Email : </h3> <input type="text" name="email" id="email" > <br>
+              <button class="btn btn-info" onclick="func()" >Abonner</button>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
 ```
